@@ -17,7 +17,7 @@
             
         <div class="search">
             <p>Digite o nome de um pokemon</p>
-            <input type="text" id="pokemonNome" onkeydown="fetchData('Enter')">
+            <input type="text" id="pokemonNome" onkeydown="if(event.key === 'Enter') fetchData();">
             <button onclick="fetchData()"></button><br>
             <a href="https://pokemondb.net/pokedex/national" target="_blank">Lista de Pokemons</a>
         </div>
