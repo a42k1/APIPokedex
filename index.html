@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+
+</header>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="wallpaper.mp4" type="video/mp4">
+    </video>
+    <div class="main-box">
+            
+        <div class="search">
+            <p>Digite o nome de um pokemon</p>
+            <input type="text" id="pokemonNome" onkeydown="fetchData('Enter')">
+            <button onclick="fetchData()"></button><br>
+            <a href="https://pokemondb.net/pokedex/national" target="_blank">Lista de Pokemons</a>
+        </div>
+        <div class="poketainer" id="conteudo">
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
+            <span id="pokeSkill" style="margin-top: 16px;"></span>
+            <audio id="pokeAudio" style="display:none"></audio>
+        </div>
+    </div>
+    <script type="application/javascript" src="app.js"></script>
+</html>
