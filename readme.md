@@ -12,3 +12,4 @@ https://youtu.be/f0uP-e-1YJ4
 
 Recursos educacionais;   
 https://youtu.be/tDqTXipQmBU
+https://github.com/luizmagao/async-await
